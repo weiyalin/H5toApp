@@ -35,27 +35,31 @@
         }
         var realmName = 'root/';
     </script>
-    <style type="text/css">
-        *{
-            -webkit-user-select: none;
-        }
-        html,body{
-            margin: 0px;
-            padding: 0px;
-            height: 100%;
-        }
-        #bcid {
-            background:#0F0;
-            height:480px;
-            width: 100%;
-        }
-    </style>
 </head>
 <body>
-    <input type='button' onclick='startRecognize()' value='扫码' />
-    <input type='button' onclick='closeScan()' value='取消' />
+    <header>
+        <h1>企业列表</h1>
+        <img src="../img/shao.png" alt="扫一扫" onclick='startRecognize()'>
+    </header>
+    <div class="search">
+        <div class="search-box-wrapper">
+            <div class="search-box">
+                <img src="../img/search.png" class="icon-search"></img>
+                <input placeholder="搜索" class="box">
+                <div class="icon-dismiss"></div>
+            </div>
+        </div>
+    </div>
+    <div class="content">
+        <h2>引导主体副本</h2>
+        <p class="lead">这是一个演示引导主体副本用法的实例。这是一个演示引导主体副本用法的实例。</p>
+    </div>
+    <!--<input type='button' onclick='closeScan()' value='取消' />-->
     <div id= "bcid"></div>
-
+<link rel="stylesheet" href="../css/main.css">
+<link rel="stylesheet" href="../lib/bootstrap/bootstrap.min.css">
 <script type="text/javascript" src="../js/main.js"></script>
+<script type="text/javascript" src="../lib/jquery/jquery-3.3.1.js"></script>
+<script type="text/javascript" src="../lib/bootstrap/bootstrap.min.js"></script>
 </body>
 </html>

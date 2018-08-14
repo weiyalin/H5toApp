@@ -1,0 +1,14 @@
+body{
+    /*background: url("../img/bg.jpg");*/
+    /*background-size: cover;*/
+}
+.form-control{
+    border: 1px solid #ffcd32;
+}
+.btn{
+    background: #ffcd32;
+    color: #fff;
+}
+.col-sm-10{
+    padding: 5px 40px;
+}

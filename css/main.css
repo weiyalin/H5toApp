@@ -1,0 +1,74 @@
+*{
+    -webkit-user-select: none;
+}
+html,body{
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    font-family: '微软雅黑 Light';
+}
+body{
+    background: #222 !important;
+}
+header{
+    margin: 0;
+    height: 70px;
+    /*background: url("../img/bg1.png");*/
+    background-size: cover;
+    position: relative;
+}
+header h1{
+    color: #ffcd32;
+    text-align: center;
+    margin: 0;
+    padding: 20px 0 0 0;
+    vertical-align: top;
+    line-height: 44px;
+    font-size: 18px;
+}
+header img{
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+.search .search-box-wrapper {
+    margin: 20px;
+}
+.search-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0 6px;
+    height: 40px;
+    background: #333;
+    border-radius: 6px;
+}
+.search-box .icon-search{
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
+    /*background-image: url("../img/search.png") !important;*/
+}
+.search-box .box {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    margin: 0 3px;
+    background: #333;
+    color: #fff;
+    font-size: 14px;
+}
+.btn{
+    background: #ffcd32;
+    color: #fff;
+}
+.content h2{
+    font-size: 18px;
+}
