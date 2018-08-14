@@ -12,7 +12,8 @@ $(document).ready(function(){
         },function(data,status){
             if(data.statusCode == 200){
                 localStorage.setItem("login", data.login);
-                localStorage.setItem("imei", data.imei);
+                localStorage.setItem("ukey", data.ukey);
+                localStorage.setItem("lastsend", data.lastsend);
 
                 window.location.href = "./html/main.html";
             }else{
